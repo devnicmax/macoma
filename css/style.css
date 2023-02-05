@@ -13,13 +13,8 @@
     --secundary: #3D335E;
     --alternative:#51AEE2;
     --alternative2: #275B9D;
-    --invertido: #ce7638;
-    --analogo: #38CFC2;
-    --triada1: #91CF38;
-    --triada2: #CF3891;
-    --triada3: #46CF38;
-    --overlay: rgba(0,0,0,0.3);
-    --width-max: 1024px;
+    --white: #ffffff;
+    --black: #000000;
 }
 
 .nav {
