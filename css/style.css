@@ -1,0 +1,113 @@
+@font-face {
+    font-family: Futura;
+    src: url('./fonts/Futura.otf');
+}
+
+@font-face {
+    font-family: Macoma;
+    src: url('./fonts/macoma.otf');
+}
+
+:root {
+    --primary: #3891CF;
+    --secundary: #3D335E;
+    --alternative:#51AEE2;
+    --alternative2: #275B9D;
+    --invertido: #ce7638;
+    --analogo: #38CFC2;
+    --triada1: #91CF38;
+    --triada2: #CF3891;
+    --triada3: #46CF38;
+    --overlay: rgba(0,0,0,0.3);
+    --width-max: 1024px;
+}
+
+.nav {
+    background-color: var(--primary);
+    height: 33px;
+    padding-top: 3px;
+}
+
+.links {
+    text-align: right;
+}
+
+.links a,
+.social a,
+.search input,
+.search i {
+    color: #ffffff;
+}
+
+.links a {
+    text-decoration: none;
+    padding: 0 1em;
+    font-size: 0.9em;
+}
+
+.social {
+    text-align: center;
+}
+
+
+.social a {
+    padding: 0 5px;
+}
+
+.btn-search {
+    border: none;
+    background-color: var(--primary);
+    color:#ffffff;
+    width: 160px;
+    font-size: 13px;
+}
+
+input[type="text"].btn-search:hover {
+  border: none;
+}
+
+.search {
+    text-align: left;
+}
+
+.search input:hover {
+    border: none;
+}
+
+.search i {
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.header {
+    height: 75px;
+    margin: 10px 0;
+}
+
+.logo img {
+    width: 120px;
+ }
+
+.header-nav {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-top: 23px;
+    text-align: right;
+}
+
+.header-nav a {
+    padding: 0 8px;
+    text-decoration: none;
+    color: var(--alternative2);
+}
+
+.header-nav a:hover {
+    color: var(--primary);
+    border-bottom: solid;
+    border-color: var(--primary);
+    padding-bottom: 3px;
+border-bottom-width: 1px;
+}
